@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami_app/home/hadeth/hadeth_name_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HadethTab extends StatefulWidget {
   @override
@@ -28,7 +29,8 @@ class _HadethTabState extends State<HadethTab> {
             width: 2,
           ))),
           padding: EdgeInsets.symmetric(vertical: 10),
-          child: Text('الاحاديث', style: Theme.of(context).textTheme.headline5),
+          child: Text(AppLocalizations.of(context)!.ahadeth,
+              style: Theme.of(context).textTheme.headline5),
         ),
         Expanded(
           child: ListView.builder(

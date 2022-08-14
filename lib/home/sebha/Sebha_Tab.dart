@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami_app/home/provider/settings_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -59,7 +60,7 @@ class _SebhaTabState extends State<SebhaTab> {
           ),
           Container(
               child: Text(
-            'عدد التسبيحات',
+                AppLocalizations.of(context)!.praises,
             style: Theme.of(context).textTheme.bodyText1,
           )),
           SizedBox(height: 20),

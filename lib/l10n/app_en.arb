@@ -10,5 +10,9 @@
   "light": "Light",
   "dark": "Dark",
   "english": "English",
-  "name": "Name"
+  "name": "Name",
+  "radio_station": "The Holy Quran Radio" ,
+  "praises": "number of praises" ,
+  "ahadeth": "The Hadiths"
+
 }
