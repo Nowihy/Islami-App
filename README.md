@@ -1,4 +1,4 @@
-# islami_app
+# IslamiApp
 
 A new Flutter project.
 
